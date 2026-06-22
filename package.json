@@ -1,0 +1,59 @@
+{
+  "name": "mcp-shield",
+  "version": "1.0.0",
+  "description": "Security middleware for MCP servers. Rate limiting, prompt injection detection, budget enforcement, tool sandboxing. The Helmet.js of MCP.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-security",
+    "mcp-middleware",
+    "model-context-protocol",
+    "prompt-injection",
+    "rate-limiting",
+    "ai-security",
+    "llm-security",
+    "mcp-server",
+    "tool-sandboxing",
+    "budget-enforcement",
+    "jailbreak-detection",
+    "claude",
+    "cursor",
+    "windsurf",
+    "anthropic",
+    "mcp-tools",
+    "security",
+    "middleware",
+    "helmet"
+  ],
+  "author": "Brennan Zambo <brennanzambo@zambo.dev> (https://zambo.dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zambodotdev/mcp-shield.git"
+  },
+  "homepage": "https://zambo.dev/opensource",
+  "bugs": {
+    "url": "https://github.com/zambodotdev/mcp-shield/issues"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
