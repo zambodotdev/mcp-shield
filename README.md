@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
 
-Built by [Brennan Zambo](https://zambo.dev) — extracted from the production security layer protecting the [zambo.dev](https://zambo.dev) MCP server (28 tools, handling thousands of requests per day).
+Built by [Brennan Zambo](https://zambo.dev) — extracted from the production security layer protecting the [zambo.dev](https://zambo.dev) MCP server (153 tools, 37 on the default surface, handling thousands of requests per day).
 
 ---
 
@@ -197,7 +197,7 @@ interface ShieldOptions {
 - [zambo-prompt-shield](https://github.com/zambodotdev/zambo-prompt-shield) — standalone prompt injection detection
 - [mcp-pay](https://github.com/zambodotdev/mcp-pay) — x402 payment billing for MCP tools
 - [agent-ledger](https://github.com/zambodotdev/agent-ledger) — track every agent call and cost
-- [zambo.dev](https://zambo.dev) — 28 MCP tools all protected by mcp-shield in production
+- [zambo.dev](https://zambo.dev) — 153 MCP tools all protected by mcp-shield in production
 
 ---
 
